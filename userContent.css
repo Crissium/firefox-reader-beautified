@@ -1,0 +1,113 @@
+@-moz-document url-prefix("about:reader") {
+	.reader-toolbar {
+		display: none !important;
+	}
+
+	body {
+		color: grey !important;
+		background-color: black !important;
+		font-family: Alegreya, Merriweather, NSimSun, serif !important;
+	}
+
+	.container {
+		all: unset !important;
+		display: block !important;
+		max-width: 850px !important;
+		margin: 20px auto !important;
+		padding: 20px !important;
+		font-size: 1.25em !important;
+	}
+
+	h1 {
+		text-align: center !important;
+		font-family: 'Alegreya Sans', Arial, Helvetica, Roboto, sans-serif !important;
+		font-size: xx-large !important;
+		padding-bottom: 15px !important;
+	}
+
+	h2 {
+		margin-top: 20px !important;
+		margin-bottom: 10px !important;
+		font-family: 'Alegreya Sans', Arial, Helvetica, Roboto, sans-serif !important;
+	}
+	
+	h3 {
+		font-family: 'Alegreya Sans', Arial, Helvetica, Roboto, sans-serif !important;
+	}
+	
+	h4 {
+		font-family: 'Alegreya Sans', Arial, Helvetica, Roboto, sans-serif !important;
+	}
+
+	code {
+		font-family: Hack, NSimSun, monospace !important;
+		font-size: initial !important;
+		font-weight: normal !important;
+	}
+
+	pre {
+		white-space: pre !important;
+		margin: 20px 0 !important;
+		padding: 10px !important;
+		font-family: Hack, NSimSun, monospace !important;
+		font-size: initial !important;
+		font-weight: normal !important;
+		overflow-x: scroll !important;
+		color: #f8f8f2 !important;
+		background-color: #1a1a1a !important;
+	}
+
+	p {
+		margin: unset !important;
+		padding: unset !important;
+		border-radius: unset !important;
+		margin-bottom: 10px !important;
+		text-indent: 1em !important;
+	}
+	
+	p:first-child {
+		text-indent: 0 !important;
+	}
+
+	img {
+		max-width: 100% !important;
+		height: auto !important;
+	}
+
+	figure {
+		height: auto !important;
+	}
+	
+	figure img {
+		display: block !important;
+		margin: auto !important;
+	}
+	
+	figcaption {
+		text-align: center !important;
+	}
+
+	blockquote {
+		margin-left: 15% !important;
+		margin-right: 15% !important;
+		font-style: italic !important;
+	}
+	
+	blockquote em {
+		font-style: normal !important;
+	}
+
+	ul {
+		list-style: disc !important;
+	}
+	
+	li {
+		margin: unset !important;
+		padding: unset !important;
+		border-radius: unset !important;
+		margin-top: 2.5px !important;
+		margin-bottom: 2.5px !important;
+		padding-left: 1em !important;
+		padding-right: 1em !important;
+	}
+}
