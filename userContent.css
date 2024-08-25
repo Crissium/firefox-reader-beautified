@@ -1,6 +1,14 @@
 @-moz-document url-prefix("about:reader") {
+	:root {
+		--font-size: 1.25em !important;
+	}
+	
 	.reader-toolbar {
 		display: none !important;
+	}
+
+	.moz-reader-content {
+		font-size: var(--font-size) !important;
 	}
 
 	body {
@@ -15,7 +23,6 @@
 		max-width: 850px !important;
 		margin: 20px auto !important;
 		padding: 20px !important;
-		font-size: 1.25em !important;
 	}
 
 	h1 {
@@ -41,7 +48,7 @@
 
 	code {
 		font-family: Hack, NSimSun, monospace !important;
-		font-size: initial !important;
+		font-size: 1em !important;
 		font-weight: normal !important;
 	}
 
@@ -50,7 +57,7 @@
 		margin: 20px 0 !important;
 		padding: 10px !important;
 		font-family: Hack, NSimSun, monospace !important;
-		font-size: initial !important;
+		font-size: 1em !important;
 		font-weight: normal !important;
 		overflow-x: scroll !important;
 		color: #f8f8f2 !important;
